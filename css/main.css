@@ -98,7 +98,9 @@ main {
   overflow: hidden;
 }
 .places {
-  overflow-x: scroll;
+/*  overflow-x: scroll;*/
+   overflow-x: visible;
+
   width: 900px;
 }
 .places img {
