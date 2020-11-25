@@ -1,0 +1,23 @@
+<svg id="_Icon_S-placeholder" data-name="🖼 Icon/S-placeholder" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(28,143,248,0.34);
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect id="bounds" class="cls-1" width="48" height="48"/>
+  <g id="zap" transform="translate(10 9)">
+    <path id="Shape" class="cls-2" d="M15.556,0,0,18.6H14L12.444,31,28,12.4H14L15.556,0Z"/>
+  </g>
+</svg>
