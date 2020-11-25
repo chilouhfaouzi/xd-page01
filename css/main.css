@@ -95,6 +95,7 @@ main {
 
 .favourite {
   text-align: left;
+  overflow: hidden;
 }
 .places {
   overflow-x: scroll;
