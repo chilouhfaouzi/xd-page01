@@ -51,13 +51,21 @@ main {
 .header {
   background-color: #7f7c88;
   padding: 50px 0;
+  position: relative;
+}
+.header img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 30px;
+  cursor: pointer;
 }
 .main-cont {
   background-image: url("../files/bg.svg");
   background-repeat: no-repeat;
   width: 100% !important;
   background-size: contain;
-   height: 735px;
+  height: 735px;
   padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
