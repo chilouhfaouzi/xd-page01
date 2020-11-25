@@ -39,13 +39,10 @@ li {
 body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
-  background-color: #7f7c88;
   font-size: 13px;
 }
 main {
-  padding: 15px 0 0;
-  overflow: hidden;
-  position: relative;
+  background-color: #7f7c88;
 }
 
 /*  ----------- 01 -End Base CSS   -----------*/
@@ -53,14 +50,15 @@ main {
 /* ----------- 02 -Start Header CSS   -----------*/
 .header {
   background-color: #7f7c88;
-  margin: 150px 0;
+  padding: 50px 0;
 }
 .main-cont {
   background-image: url("../files/bg.svg");
   background-repeat: no-repeat;
   width: 100% !important;
   background-size: contain;
-  height: 800px;
+  /* height: 780px;*/
+  padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
 }
