@@ -98,14 +98,14 @@ main {
   overflow: hidden;
 }
 .places {
-/*  overflow-x: scroll;*/
-   overflow-x: visible;
-
+  overflow-x: scroll;
   width: 900px;
 }
 .places img {
   width: 100px;
   display: inline-block;
+   overflow-x: scroll;
+
   cursor: pointer;
 }
 /* ----------- 02 -End Header CSS   -----------*/
