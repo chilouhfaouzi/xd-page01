@@ -8,11 +8,7 @@
 
 [Table of contents]
 01.Base CSS
-02.Header CSS
-03.main content
-04.Footer
-
-
+02.Page CSS
  --------------------------*/
 
 /*  ----------- 01- Start Base CSS  ----------- */
@@ -47,7 +43,7 @@ main {
 
 /*  ----------- 01 -End Base CSS   -----------*/
 
-/* ----------- 02 -Start Header CSS   -----------*/
+/* ----------- 02 -Start Page CSS   -----------*/
 .header {
   background-color: #7f7c88;
   padding: 50px 0;
@@ -60,11 +56,19 @@ main {
   width: 30px;
   cursor: pointer;
 }
+.img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .main-cont {
-  background-image: url("../files/bg.svg");
+  /*background-image: url("../files/bg.svg");
   background-repeat: no-repeat;
-  width: 100% !important;
   background-size: contain;
+*/
+  position: relative;
+  width: 100% !important;
   height: 735px;
   padding-bottom: 30px;
   padding-left: 10px;
@@ -73,6 +77,12 @@ main {
 
 .content {
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 99;
 }
 .content .profile {
   width: 200px;
@@ -104,8 +114,6 @@ main {
   overflow: hidden;
 }
 .places {
-  /* overflow-x: visible;
-  width: 900px;*/
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -116,4 +124,4 @@ main {
   margin-right: 20px;
   cursor: pointer;
 }
-/* ----------- 02 -End Header CSS   -----------*/
+/* ----------- 02 -End Page CSS   -----------*/
